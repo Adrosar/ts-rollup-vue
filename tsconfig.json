@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",
+        "allowJs": true,
+        "sourceMap": false,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "removeComments": false,
+        "preserveConstEnums": false,
+        "skipLibCheck": true,
+        "pretty": true,
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "lib": [
+            "ES5",
+            "es2015",
+            "ES6",
+            "ES2016",
+            "ES7",
+            "ES2017",
+            "dom"
+        ]
+    },
+    "include": [
+        "source/**/*.ts",
+        "source/**/*.tsx",
+        "source/**/*.vue",
+        "tests/**/*.ts",
+        "tests/**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules",
+        "bower_components",
+        "*.d.ts"
+    ]
+}

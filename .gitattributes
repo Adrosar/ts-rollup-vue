@@ -1,0 +1,27 @@
+*              -text
+
+.gitattributes text eol=lf
+.gitignore     text eol=lf
+*.sh           text eol=lf
+*.go           text eol=lf
+*.js           text eol=lf
+*.jsx          text eol=lf
+*.ts           text eol=lf
+*.tsx          text eol=lf
+*.vue          text eol=lf
+*.css          text eol=lf
+*.scss         text eol=lf
+*.sass         text eol=lf
+*.less         text eol=lf
+*.md           text eol=lf
+*.json         text eol=lf
+*.json4        text eol=lf
+*.json5        text eol=lf
+*.yaml         text eol=lf
+*.ini          text eol=lf
+*.toml         text eol=lf
+*.snbt         text eol=lf
+*.mcmeta       text eol=lf
+
+*.bat          text eol=crlf
+*.cmd          text eol=crlf
